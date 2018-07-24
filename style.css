@@ -1,0 +1,140 @@
+/*center all elements and add background*/
+body {
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(photo/drawing.jpg);
+    background-position: center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+}
+
+h1 {
+  font-size: 2.4em;
+  background: -webkit-linear-gradient(#FFE4E1, #00BFFF);
+  background: -moz-linear-gradient(#FFE4E1, #00BFFF);
+  background: -o-linear-gradient(#FFE4E1, #00BFFF);
+  background: -ms-linear-gradient(#FFE4E1, #00BFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 3px white;    
+}
+
+
+#biggest {
+    margin:40px auto;
+}
+
+
+/*input container*/
+
+#paintColor{
+    width: 100px;
+    height: 40px;
+    border: solid 2px orange;
+}
+
+.inputContainer {
+    width: 399px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 40px;
+    border: solid 3px black;
+    background-image: url(photo/color.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/*color input, line thickness, slider*/
+.input{
+    height: 50px;
+    font-size: 1.3em;
+}
+
+#thicknessInput {
+    position: relative;
+    padding-top: 20px;
+}
+
+#circle {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: black;
+    margin: 20px auto;
+ 
+}
+
+#slider {
+    margin: 70px auto;
+   
+}
+
+/*canvas container*/
+#drawingbox {
+    width: 700px;
+    height: 400px;
+    border: 1px solid grey;
+    margin: 10px auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+   
+}
+
+#paint {
+    background-color: black;
+    cursor: crosshair;
+    margin-left: -16px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
+/*buttons*/
+.inputContainer2 {
+    width: 399px;
+    margin: 0 auto;
+}
+
+.input2 {
+    width: 133px;
+    color:blue;
+    font-size: 1.3em;
+    float: left;
+}
+
+.button {
+    background: #7B68EE;
+    color: cornsilk;
+    height: 50px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 4px rgba(0,0,0,0.6);
+    position: relative;
+}
+
+.button:hover {
+    color: white;
+    background: -webkit-linear-gradient(#FFE4E1, #FDF5E6);
+    background: -moz-linear-gradient(#FFE4E1, #FDF5E6);
+    background: -o-linear-gradient(#FFE4E1, #FDF5E6);
+    background: -ms-linear-gradient(#FFE4E1, #FDF5E6);
+}
+
+.button:active{
+    top: 4px;
+}
+
+.eraseMode {
+    background-color: crimson;
+    color: aliceblue;
+}
